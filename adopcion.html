@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Adopción de Gatos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Formulario de Adopción de Gatos</h1>
+        <form action="adopcion.php" method="POST" class="shadow p-4 rounded">
+            <!-- Datos del gato -->
+            <h4>Datos del Gato</h4>
+            <div class="mb-3">
+                <label for="nombre_gato" class="form-label">Nombre del Gato</label>
+                <input type="text" class="form-control" id="nombre_gato" name="nombre_gato" required>
+            </div>
+            <div class="mb-3">
+                <label for="edad_gato" class="form-label">Edad del Gato (en meses)</label>
+                <input type="number" class="form-control" id="edad_gato" name="edad_gato" required>
+            </div>
+            <div class="mb-3">
+                <label for="descripcion_gato" class="form-label">Descripción del Gato</label>
+                <textarea class="form-control" id="descripcion_gato" name="descripcion_gato" rows="3" required></textarea>
+            </div>
+
+            <!-- Datos del solicitante -->
+            <h4 class="mt-4">Datos del Solicitante</h4>
+            <div class="mb-3">
+                <label for="nombre_solicitante" class="form-label">Nombre Completo</label>
+                <input type="text" class="form-control" id="nombre_solicitante" name="nombre_solicitante" required>
+            </div>
+            <div class="mb-3">
+                <label for="telefono_solicitante" class="form-label">Teléfono</label>
+                <input type="tel" class="form-control" id="telefono_solicitante" name="telefono_solicitante" required>
+            </div>
+            <div class="mb-3">
+                <label for="email_solicitante" class="form-label">Correo Electrónico</label>
+                <input type="email" class="form-control" id="email_solicitante" name="email_solicitante" required>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Enviar Solicitud</button><br><br>
+            <a href="CW.html"><button type="button" class="btn btn-primary w-100">Regresar</button></a>
+
+        </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
