@@ -1,0 +1,30 @@
+body {
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #ff5733;
+}
+
+h4 {
+    color: #333;
+}
+
+form {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+button {
+    background-color: #ff5733;
+    border: none;
+    transition: background-color 0.3s;
+    color: white;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #e04c2d;
+}

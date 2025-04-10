@@ -1,0 +1,157 @@
+
+#productos{
+    width: 105.1%;
+    margin-left: -30px;
+    text-align: center;
+    margin-top: 150px;
+
+}
+
+#productos img:hover{
+    scale: 1.1;
+    transition: 1.4;
+}
+
+#productos img{
+    width: 170px;
+    height: 170px;
+    border-radius: 80px;
+}
+
+#centro{
+    float:inline-start;
+}
+
+
+*{
+    font-family: "Circular Std";
+}
+
+h1{
+    font-family: "Circular Std";
+
+}
+
+#edades{
+    margin-top: 100px;
+    margin-left: 300px;
+    width: 700px;
+    padding: 1em;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+#edades button{
+
+    width: 200px;
+    height: 40px;
+    font-size: 30px;
+
+}
+
+body{
+    background-image: url("fondofondo.jpg");
+    
+}
+
+
+body {
+    background-color: #f8d7e1; 
+    color: #333; 
+}
+
+.navbar {
+    background-color: #f4a6c9; 
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+    color: #5c2b72; 
+}
+
+.navbar-nav .nav-link.active {
+    color: #f5c5d4; 
+}
+
+.navbar-toggler-icon {
+    background-color: #5c2b72; 
+}
+
+.card {
+    background-color: #f9ebf9; 
+    border: 1px solid #f4c1d2; 
+}
+
+.card-body {
+    color: #5c2b72; 
+}
+
+.accordion-button {
+    background-color: #f9c0d9; 
+    color: #5c2b72;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #f5a6c4; 
+}
+
+.accordion-body {
+    background-color: #fce4f1; 
+}
+
+.carousel-inner {
+    background-color: #f9ebf9; 
+}
+
+.carousel-control-prev, .carousel-control-next {
+    background-color: rgba(92, 43, 114, 0.5); 
+}
+
+.carousel-item img {
+    border-radius: 8px; 
+}
+
+
+button, .btn {
+    background-color: #f4a6c9; 
+    color: white;
+}
+
+button:hover, .btn:hover {
+    background-color: #f5c5d4; 
+}
+
+footer {
+    background-color: #f4c1d2; 
+    color: #5c2b72; 
+}
+
+
+label{
+    font-size: 20px;
+}
+
+label {
+    background-color: #f8f9fa; /* Color claro */
+    color: #212529; /* Color del texto */
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/* Fondo para la sección de productos */
+#productos {
+    background-color: #e9ecef; /* Fondo gris claro */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Fondo para cada producto (opcional) */
+#productos div#centro {
+    background-color: #ffffff; /* Fondo blanco */
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
